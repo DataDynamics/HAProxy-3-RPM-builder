@@ -1,4 +1,4 @@
-FROM rocky:9
+FROM rockylinux:9
 
 RUN yum install -y wget && yum -y groupinstall 'Development Tools'
 RUN mkdir RPMS
